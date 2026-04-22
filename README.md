@@ -24,6 +24,7 @@ ames-housing/
 |---|---|---|
 | Baseline (numeric-only, mean-impute, Random Forest defaults) | $18,105 | 0.89 |
 | Pipeline (numeric median-impute + categorical one-hot) | $17,653 | 0.89 |
+| Pipeline (all features) — 5-fold CV | $18,399 ± $1,635 | 0.89 |
 
 ## Tech stack
 
