@@ -1,0 +1,22 @@
+# Data — never commit, Kaggle hosts it
+data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments (if you use them)
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
