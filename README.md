@@ -25,6 +25,10 @@ ames-housing/
 | Baseline (numeric-only, mean-impute, Random Forest defaults) | $18,105 | 0.89 |
 | Pipeline (numeric median-impute + categorical one-hot) | $17,653 | 0.89 |
 | Pipeline (all features) — 5-fold CV | $18,399 ± $1,635 | 0.89 |
+| Tuned (RandomizedSearchCV, 30 iters) — 5-fold CV | **$18,004** | 0.86 |
+
+**Best model:** Tuned Random Forest pipeline with `n_estimators=500`, all other defaults.
+**Honest benchmark (CV mean):** $18,004 — approximately 10% average error on a target with mean ~$180k.
 
 ## Tech stack
 
