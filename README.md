@@ -23,6 +23,7 @@ ames-housing/
 | Model | Validation MAE | Validation R² |
 |---|---|---|
 | Baseline (numeric-only, mean-impute, Random Forest defaults) | $18,105 | 0.89 |
+| Pipeline (numeric median-impute + categorical one-hot) | $17,653 | 0.89 |
 
 ## Tech stack
 
