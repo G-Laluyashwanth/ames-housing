@@ -8,9 +8,13 @@ End-to-end regression project predicting house sale prices in Ames, Iowa.
 
 ```
 ames-housing/
-├── data/           # Kaggle data (not committed — download from competition page)
+├── data/                 # Kaggle data (not committed — download from competition page)
 ├── notebooks/
-│   └── 01-explore.ipynb
+│   ├── 01-explore.ipynb       # EDA: distributions, missing values, correlations
+│   ├── 02-baseline.ipynb      # Baseline Random Forest (numeric features only)
+│   ├── 03-pipeline.ipynb      # Pipeline with imputation + one-hot encoding
+│   └── 04-tuning.ipynb        # RandomizedSearchCV + Kaggle submission
+├── submission.csv        # Final Kaggle submission (RMSLE 0.15992)
 └── README.md
 ```
 
